@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
         <Providers>
           <Header />
           <Navbar />
-          <SearcBox/>
+          <SearcBox />
           {children}
         </Providers>
       </body>
