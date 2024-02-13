@@ -9,11 +9,9 @@ const nextConfig = {
           },
         ],
     },
-}
-
-// module.exports = nextConfig
-module.exports = {
-  experimental: {
-    missingSuspenseWithCSRBailout: false,
+    experimental: {
+      missingSuspenseWithCSRBailout: false,
   },
 }
+
+module.exports = nextConfig
